@@ -1,0 +1,139 @@
+/*Menu*/
+.topheader {
+  position = fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+
+}
+.Menu-Horizontal{
+list-style: none;
+display: flex;
+justify-content: space-around;
+width: 100%;
+
+}
+.Menu-Horizontal li{
+  display: block;
+  padding: 0.9rem 1.25rem;
+  color: blue;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.Menu-Horizontal li a{
+  display: block;
+  padding: 0.9rem 1.25rem;
+  color: blue;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.Menu-Horizontal li a:hover{
+color: red;
+
+}
+
+.Menu-Horizontal li:hover
+{
+color: red;
+}
+
+.Menu-Vertical{
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 9.4rem;
+  background-color: white;
+}
+.Menu-Horizontal li:hover .Menu-Vertical{
+  display: block;
+}
+.Menu-Vertical li{
+  font-size: 1.25rem;
+  color: gray;
+}
+.Menu-Vertical li a{
+  display: block;
+  font-size: 1.25rem;
+  color: gray;
+  text-decoration, none;
+  paddin: 0.9rem 1.25rem;
+}
+.Menu-Vertical li a:hover{
+  color: red;
+  
+}
+
+/*Seccion conocenos*/
+
+.seccion-conocenos{
+  padding: 3.8rem 1.25rem;
+  background-color: yellow;
+}
+.div-gral-conocenos{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-conoc-texto{
+  flex:1;
+  
+}
+.div-conoc-texto h2{
+  color: blue;
+  margin-bottom: 0.9rem;
+}
+.div-conoc-texto p{
+  color: black;
+  line-height: 2;
+}
+.div-conoc-img{
+  flex:1;
+
+}
+.div-conoc-img img{
+  width:100%;
+  max-width: 31.2rem;
+}
+/*SECCION RETOS*/
+
+.seccion-retos{
+  padding: 3.75rem 1.25rem;
+  background-color: green;
+}
+.div-gral-retos{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+
+}
+.div-ret-texto{
+  flex:1;
+}
+.div-ret-texto h2{
+  color: blue;
+  margin-bottom: 0.9rem;
+
+}
+.div-ret-texto p{
+  color: black;
+  line-height: 2;
+
+}
+.div-ret-video{
+  flex:1;
+  
+}
+.div-ret-video iframe{
+  width: 100%;
+  max-width: 500%;
+}
